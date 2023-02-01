@@ -35,5 +35,3 @@ SASS is already setup for you. You can find the styles in the **styles** folder 
 -	Deployed application URL
 -	Brief documentation on how to run and test your application
 
-### Timeframe
-This project should take roughly 4 hours. 
