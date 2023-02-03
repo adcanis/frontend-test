@@ -22,10 +22,11 @@ Create a basic web application using React/Next.js and GraphQL that mimics a con
 - Run `npm run dev` to start the application
 - Navigate to `http://localhost:3000/` to view the application
 
-### GraphQL
-We are using Apollo Client to connect to our API and the `apolloConfig.tsx` has already been setup for you. 
+## Backend
+The backend is using AWS AppSync and DynamoDB and has already been setup. The API provides 2 queries and 3 mutation. You can find the schema in the `schema.graphql` file found in the **graphql** folder for reference. 
 
-The API provides 2 queries and 3 mutation. You can find the schema in the `schema.graphql` file found in the **graphql** folder for reference.
+### Apollo Client
+We are using Apollo Client to connect to our API and the `apolloConfig.tsx` has already been setup for you and will be ready to use once you update the `aws-exports.js` file with the information provided in the email.
 
 ### Styling 
 SASS is already setup for you. You can find the styles in the **styles** folder and ready for your customization.
